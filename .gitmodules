@@ -1,0 +1,3 @@
+[submodule "FNMapKit"]
+	path = FNMapKit
+	url = git@github.com:devinlai/FNMapKit.git
