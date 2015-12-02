@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BCF52B5E6E275DA1B20E205A7DBEE0F0336DB4A9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8271E42DB7598DE995281426E973F79B29B243DE" : 0,
+    "BCF52B5E6E275DA1B20E205A7DBEE0F0336DB4A9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7BB84E69-4939-497A-9538-55E9D1E7EE99",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8271E42DB7598DE995281426E973F79B29B243DE" : "FNWorkspace\/FNMapKit\/",
+    "BCF52B5E6E275DA1B20E205A7DBEE0F0336DB4A9" : "FNWorkspace\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "fnworkspace",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "fnworkspace.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:devinlai\/FNMapKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8271E42DB7598DE995281426E973F79B29B243DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/devinlai\/FNWorkspace.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BCF52B5E6E275DA1B20E205A7DBEE0F0336DB4A9"
+    }
+  ]
+}
