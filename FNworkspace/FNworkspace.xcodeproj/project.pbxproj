@@ -14,6 +14,8 @@
 		55004A681C0EC2DB0063B612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55004A671C0EC2DB0063B612 /* Assets.xcassets */; };
 		55004A6B1C0EC2DB0063B612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55004A691C0EC2DB0063B612 /* LaunchScreen.storyboard */; };
 		55004A761C0EC2DB0063B612 /* FNworkspaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55004A751C0EC2DB0063B612 /* FNworkspaceTests.m */; };
+		5548A4441C0ECC10005271A0 /* FNMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5548A4431C0ECC10005271A0 /* FNMapKit.framework */; };
+		5548A4451C0ECC10005271A0 /* FNMapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5548A4431C0ECC10005271A0 /* FNMapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,20 @@
 			remoteInfo = FNworkspace;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5548A4461C0ECC11005271A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5548A4451C0ECC10005271A0 /* FNMapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		55004A581C0EC2DB0063B612 /* FNworkspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNworkspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +56,7 @@
 		55004A711C0EC2DB0063B612 /* FNworkspaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FNworkspaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55004A751C0EC2DB0063B612 /* FNworkspaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNworkspaceTests.m; sourceTree = "<group>"; };
 		55004A771C0EC2DB0063B612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5548A4431C0ECC10005271A0 /* FNMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = FNMapKit.framework; path = "/Users/devinlai/Library/Developer/Xcode/DerivedData/fnworkspace-floyfxhtyarofaehchvhylpfdbfk/Build/Products/Debug-iphoneos/FNMapKit.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5548A4441C0ECC10005271A0 /* FNMapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 		55004A4F1C0EC2DB0063B612 = {
 			isa = PBXGroup;
 			children = (
+				5548A4431C0ECC10005271A0 /* FNMapKit.framework */,
 				55004A5A1C0EC2DB0063B612 /* FNworkspace */,
 				55004A741C0EC2DB0063B612 /* FNworkspaceTests */,
 				55004A591C0EC2DB0063B612 /* Products */,
@@ -121,6 +140,7 @@
 				55004A541C0EC2DB0063B612 /* Sources */,
 				55004A551C0EC2DB0063B612 /* Frameworks */,
 				55004A561C0EC2DB0063B612 /* Resources */,
+				5548A4461C0ECC11005271A0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -402,6 +422,7 @@
 				55004A7C1C0EC2DB0063B612 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55004A7D1C0EC2DB0063B612 /* Build configuration list for PBXNativeTarget "FNworkspaceTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +431,7 @@
 				55004A7F1C0EC2DB0063B612 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

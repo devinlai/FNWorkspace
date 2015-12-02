@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+@import FNMapKit;
 
 @interface ViewController ()
 
@@ -21,6 +22,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    [FNMap testFNMap];
     // Dispose of any resources that can be recreated.
 }
 
